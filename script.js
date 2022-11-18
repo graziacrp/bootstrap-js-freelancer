@@ -2,9 +2,9 @@
 //Calcolo i vari sconti in relazione alle ore
 
 function calcoloTotale() {
-    const costobackendDeveloper = 20.5;
-    const costofrontendDeveloper = 15.3;
-    const costoprojectAnalyst = 33.6;
+    const costosviluppoBackEnd = 20.5;
+    const costosviluppoFrontEnd = 15.3;
+    const costoprojectAnalist = 33.6;
 }
 
 let Sconti = ["YHDNU32", "JANJC63", "PWKCN25", "SJDPO96", "POCIE24"];
