@@ -14,3 +14,13 @@ alert("Sconti");
 let ore = document.getElementById("Hours requested").value;
     ore = parseInt(ore);
     alert("Ore");
+
+
+    let lavoro = document.getElementById("TypeofWork").value; 
+   
+    
+    let discountVal = document.getElementById("discount").value;   
+    
+    
+    let valoreSconto = controlloSconto("Sconti");
+    
