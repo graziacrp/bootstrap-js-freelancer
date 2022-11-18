@@ -5,7 +5,7 @@ function calcoloTotale() {
     const costosviluppoBackEnd = 20.5;
     const costosviluppoFrontEnd = 15.3;
     const costoprojectAnalist = 33.6;
-}
+
 
 let Sconti = ["YHDNU32", "JANJC63", "PWKCN25", "SJDPO96", "POCIE24"];
 
@@ -66,4 +66,4 @@ let ore = document.getElementById("Hours").value;
         }
         return valoreSconto;
     }
-    
+}
