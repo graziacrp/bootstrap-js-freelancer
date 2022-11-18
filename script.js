@@ -24,7 +24,7 @@ let ore = document.getElementById("Hours").value;
     let valoreSconto = controlloSconto("Sconti");
 
 
-
+//Verifico se il codice sconto sia valido o meno
 
     if (valoreSconto == 0 && discountVal!= ""){
         alert("Codice sconto non valido");
