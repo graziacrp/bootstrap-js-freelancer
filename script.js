@@ -55,7 +55,7 @@ let ore = document.getElementById("Hours").value;
     
 
     function controlloSconto(lista) { 
-        let discount = document.getElementById("discount").value; //codice sconto
+        let discount = document.getElementById("discount").value; 
         discount = discount.toUpperCase();
         let valoreSconto = 0;
         for (let i = 0; i < lista.length; i++){
