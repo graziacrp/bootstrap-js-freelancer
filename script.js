@@ -27,7 +27,7 @@ let ore = document.getElementById("Hours").value;
 
 
     if (valoreSconto == 0 && discountVal!= ""){
-        alert("Codice sconto non valido.");
+        alert("Codice sconto non valido");
         document.getElementById("discount").value = "Codice sconto non valido ";
     }
 
