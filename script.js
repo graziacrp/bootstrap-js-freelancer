@@ -1,5 +1,5 @@
 
-//Calcolo i vari sconti
+//Calcolo i vari sconti in relazione alle ore
 
 function calcoloTotale() {
 
@@ -9,4 +9,8 @@ function calcoloTotale() {
 }
 
 let Sconti = ["YHDNU32", "JANJC63", "PWKCN25", "SJDPO96", "POCIE24"];
-alert(Sconti);
+alert("Sconti");
+
+let ore = document.getElementById("Hours requested").value;
+    ore = parseInt(ore);
+    alert("Ore");
