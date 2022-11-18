@@ -10,7 +10,7 @@ function calcoloTotale() {
 let Sconti = ["YHDNU32", "JANJC63", "PWKCN25", "SJDPO96", "POCIE24"];
 
 
-let ore = document.getElementById("Hours requested").value;
+let ore = document.getElementById("Hours").value;
     ore = parseInt(ore);
     alert("Ore");
 
